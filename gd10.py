@@ -102,8 +102,8 @@ except Exception as e:
     st.stop()
 
 # ✅ 모델 불러오기
-text_model = genai.GenerativeModel("gemini-2.5-flash")
-vision_model = genai.GenerativeModel("gemini-2.5-flash")
+text_model = genai.GenerativeModel("gemini-3.5-flash-lite")
+vision_model = genai.GenerativeModel("gemini-3.5-flash-lite")
 
 # ✅ 감상 단계 질문 리스트 (Feldman)
 feldman_questions = [
